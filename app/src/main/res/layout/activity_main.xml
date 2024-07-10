@@ -1,0 +1,31 @@
+<!-- main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnDanhSachSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh Sách Sản Phẩm" />
+
+    <Button
+        android:id="@+id/btnDanhSachSanPhamTheoDM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh Sách Sản Phẩm Theo Danh Mục" />
+
+    <Button
+        android:id="@+id/btnTimKiemSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tìm Kiếm Sản Phẩm" />
+
+    <Button
+        android:id="@+id/btnLienHe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liên Hệ" />
+</LinearLayout>

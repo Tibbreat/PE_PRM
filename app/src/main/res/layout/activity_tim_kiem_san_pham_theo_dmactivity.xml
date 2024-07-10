@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtDanhMuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã danh mục" />
+
+    <Button
+        android:id="@+id/btnXemSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem sản phẩm" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
